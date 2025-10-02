@@ -42,5 +42,5 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency "standard", "~> 1.37"
   spec.add_development_dependency "liquid", "~> 5.5"
   # Development dependencies
-  spec.add_development_dependency "railties", "~> 7.2"
+  spec.add_development_dependency "railties", ">= 7.2"
 end
