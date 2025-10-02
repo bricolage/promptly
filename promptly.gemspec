@@ -35,7 +35,7 @@ Gem::Specification.new do |spec|
   spec.require_paths = ["lib"]
 
   # Runtime dependencies (single target: Rails 7.2.x)
-  spec.add_dependency "actionview", "~> 7.2"
+  spec.add_dependency "actionview", ">= 7.2"
 
   # Development dependencies
   spec.add_development_dependency "rspec", "~> 3.12"
